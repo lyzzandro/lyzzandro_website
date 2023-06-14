@@ -1,0 +1,17 @@
+.Menu {
+    width: 100%;
+    position: fixed;
+    background-color: rgba(140, 4, 28, 0.1);
+    padding: 26px 80px;
+}
+
+.Menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.Menu li a {
+    color: #f8f8f8;
+}
