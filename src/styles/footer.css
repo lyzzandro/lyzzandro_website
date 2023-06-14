@@ -1,0 +1,67 @@
+.Footer {
+    width: 100%;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 1360px;
+    padding: 200px 0 0 0;
+    gap: 32px;
+    background: #8c041c;
+}
+
+.Footer p {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    color: #e3d8d8;
+}
+
+.WhiteButton {
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 24px;
+    gap: 12px;
+    border: 2px solid #8c041c;
+    border-radius: 8px;
+    background: #f8f8f8;
+    color: #8c041c;
+    transition: Background 0.2s;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 200%;
+}
+
+.WhiteButton:hover {
+    background: #40010c;
+}
+
+.Footer div {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.Footer img:hover {
+    display: flex;
+    gap: 16px;
+    filter: invert(30%) sepia(46%) saturate(4742%) hue-rotate(334deg)
+        brightness(38%) contrast(107%);
+    cursor: pointer;
+}
+
+.Footer div:nth-last-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 32px;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: #40010c;
+}
