@@ -5,6 +5,7 @@
     padding: 26px 80px;
     display: flex;
     justify-content: center;
+    backdrop-filter: blur(10px);
 }
 
 .Container {
