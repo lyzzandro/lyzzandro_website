@@ -1,4 +1,4 @@
-import '../../styles/Menu.css';
+import '../../styles/menu.css';
 import logo from '../../logo.svg';
 import arrow from '../../images/chevron-down.svg';
 export default function Menu() {

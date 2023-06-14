@@ -1,4 +1,4 @@
-import '../../styles/Apresentation.css';
+import '../../styles/apresentation.css';
 import profile from '../../images/profile.png';
 import line from '../../images/line.svg';
 
