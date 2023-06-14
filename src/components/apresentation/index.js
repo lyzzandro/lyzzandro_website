@@ -7,10 +7,10 @@ export default function Apresentation() {
         <div className="Container">
             <div className="Apresentation">
                 <div>
-                    <img src={profile} />
+                    <img src={profile} alt="Foto principal" />
                     <p>Olá, eu sou Lyzzandro!</p>
                 </div>
-                <img src={line} />
+                <img src={line} alt="Linha para separar" />
                 <h1>
                     Crio interfaces para produtos digitais que conectam pessoas
                     e empresas
