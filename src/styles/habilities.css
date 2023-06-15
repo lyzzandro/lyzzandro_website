@@ -79,4 +79,20 @@
 .Arrow-down {
     position: absolute;
     top: calc(0% - 36px / 2);
+    animation: arrowupdown 4s infinite ease-in-out;
+}
+
+@keyframes arrowupdown {
+    from {
+        transform: translateY(-4px);
+    }
+
+    50%{
+        transform: translateY(4px);
+    }
+
+    to {
+        transform: translateY(-4px);
+    }
+
 }
