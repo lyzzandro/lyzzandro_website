@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Menu from './components/menu';
-import Apresentation from './components/apresentation';
-import Footer from './components/footer';
+import Menu from './components/Menu';
+import Apresentation from './components/Apresentation';
+import Footer from './components/Footer';
 
 function App() {
     return (
