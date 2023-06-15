@@ -6,7 +6,7 @@ export default function Menu() {
         <div className="Container">
             <header className="Menu">
                 <div>
-                    <img src={logo} alt="Logo" />
+                    <img src={logo} alt="Logo" className="Logo" />
                     <ul>
                         <li>
                             <a>Sobre mim</a>
@@ -21,7 +21,7 @@ export default function Menu() {
                             <a>Habilidades</a>
                         </li>
                     </ul>
-                    <button>
+                    <button className="RedButton">
                         Solicitar proposta
                         <img src={arrow} alt="Arrow" />
                     </button>
