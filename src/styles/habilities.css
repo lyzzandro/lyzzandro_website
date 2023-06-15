@@ -45,7 +45,7 @@
     gap: 36px;
     text-align: center;
     border-radius: 8px;
-    transition: Background 0.2s;
+    transition: Background 0.3s;
 }
 
 .Card:hover {
