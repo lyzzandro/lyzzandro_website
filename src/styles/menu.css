@@ -3,7 +3,7 @@
     position: fixed;
     z-index: 999;
     background-color: rgba(140, 4, 28, 0.1);
-    padding: 26px 80px;
+    height: 80px;
     display: flex;
     justify-content: center;
     backdrop-filter: blur(10px);
@@ -13,7 +13,7 @@
     min-width: 1200px;
     display: flex;
     justify-content: space-between;
-
+    position: relative;
 }
 
 .Container {
@@ -22,12 +22,21 @@
     justify-content: space-between;
 }
 
+.Logo {
+    position: absolute;
+    left: 0;
+    top: calc(50% - 32px / 2);
+}
+
 .Menu ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
     gap: 48px;
+    position: absolute;
+    right: calc(50% - 513px / 2);
+    top: calc(50% - 33px / 2);
 }
 
 .Menu li {
@@ -48,13 +57,13 @@
     cursor: pointer;
 }
 
-button {
+.RedButton {
     font-family: 'Fira Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px 20px 12px 24px;
-    gap: 12px;
+    padding: 8px 16px;
+    gap: 8px;
     border: 2px solid #8c041c;
     border-radius: 8px;
     background: transparent;
@@ -63,6 +72,10 @@ button {
     font-size: 12px;
     font-weight: 500;
     line-height: 200%;
+    position: absolute;
+    right: 0;
+    top: calc(50% - 44px / 2);
+    animation: slideof 0.2s forwards;
 }
 
 button:hover {
@@ -70,4 +83,25 @@ button:hover {
     border: 2px solid #8c041c;
     color: #e3d8d8;
     cursor: pointer;
+    animation: slidein 0.2s forwards;
+}
+
+@keyframes slidein {
+    from {
+        gap: 8;
+    }
+
+    to {
+        gap: 24px;
+    }
+}
+
+@keyframes slideof {
+    from {
+        gap: 24px;
+    }
+
+    to {
+        gap: 8px;
+    }
 }
