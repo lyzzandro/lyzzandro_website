@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     min-width: 1360px;
-    padding: 200px 0 0 0;
+    padding: 120px 0 0 0;
     gap: 32px;
     background: #8c041c;
 }
@@ -23,7 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px 20px 12px 24px;
+    padding: 12px 24px 12px 24px;
     gap: 12px;
     border: 2px solid #8c041c;
     border-radius: 8px;
@@ -41,15 +41,19 @@
 
 .Footer div {
     display: flex;
-    gap: 16px;
     margin-top: 32px;
 }
 
-.Footer img:hover {
+.Footer div img {
+    transition: All 0.2s;
+    border: 8px solid transparent;
+    border-radius: 100%;
+}
+
+.Footer div img:hover {
     display: flex;
-    gap: 16px;
-    filter: invert(30%) sepia(46%) saturate(4742%) hue-rotate(334deg)
-        brightness(38%) contrast(107%);
+    background: #40010c;
+    border: 8px solid #40010c;
     cursor: pointer;
 }
 
