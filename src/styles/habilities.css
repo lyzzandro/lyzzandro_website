@@ -1,10 +1,13 @@
 .Habilities {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #111111;
     padding: 120px 0;
+    gap: 48px;
+    position: relative;
 }
 
 .Title {
@@ -24,4 +27,56 @@
     font-size: 32px;
     line-height: 140%;
     color: #efe5e5;
+}
+
+.Cards {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1e1d1d;
+    padding: 60px 40px;
+    gap: 36px;
+    text-align: center;
+    border-radius: 8px;
+    transition: Background 0.2s;
+}
+
+.Card:hover {
+    background: #8c041c;
+    box-shadow: 4px 4px 24px rgba(140, 4, 28, 0.25);
+}
+
+.Card div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.Card h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 160%;
+    color: #f8f8f8;
+    width: 160px;
+}
+
+.Card p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #f8f8f8;
+    width: 230px;
+}
+
+.Arrow-down {
+    position: absolute;
+    top: calc(0% - 36px / 2);
 }

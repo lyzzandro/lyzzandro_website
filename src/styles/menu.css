@@ -1,6 +1,7 @@
 .Menu {
     width: 100%;
     position: fixed;
+    z-index: 999;
     background-color: rgba(140, 4, 28, 0.1);
     padding: 26px 80px;
     display: flex;
