@@ -9,8 +9,15 @@
     backdrop-filter: blur(10px);
 }
 
+.Menu div {
+    min-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .Container {
-    min-width: 1360px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
