@@ -33,10 +33,10 @@
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
-    gap: 48px;
+    gap: 36px;
     position: absolute;
     right: calc(50% - 513px / 2);
-    top: calc(50% - 33px / 2);
+    top: calc(50% - 41px / 2);
 }
 
 .Menu li {
@@ -48,13 +48,14 @@
 .Menu li a {
     font-size: 14px;
     font-weight: 500;
-    padding: 8px 16px;
+    padding: 12px 24px;
     transition: All 0.2s;
 }
 
 .Menu li a:hover {
-    color: #8c041c;
     cursor: pointer;
+    background: #40010c;
+    border-radius: 8px;
 }
 
 .RedButton {
