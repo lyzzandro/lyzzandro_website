@@ -28,7 +28,7 @@
     border-radius: 8px;
     background: #f8f8f8;
     color: #8c041c;
-    transition: Background 0.2s;
+    transition: Background 0.3s;
     font-weight: 600;
     font-size: 12px;
     line-height: 200%;
@@ -44,7 +44,7 @@
 }
 
 .Footer div img {
-    transition: All 0.2s;
+    transition: All 0.3s;
     border: 8px solid transparent;
     border-radius: 100%;
 }
