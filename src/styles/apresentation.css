@@ -17,18 +17,18 @@
 
 .Apresentation div img {
     width: 56px;
-    border: 2px solid #e3d8d8;
+    border: 2px solid var(--gray2);
     border-radius: 100%;
 }
 
 .Apresentation p {
-    color: #efe5e5;
+    color: var(--gray3);
     font-weight: 400;
     font-size: 12px;
 }
 
 .Apresentation h1 {
-    color: #f8f8f8;
+    color: var(--white);
     font-weight: 700;
     font-size: 48px;
     text-align: center;

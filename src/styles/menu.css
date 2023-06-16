@@ -40,7 +40,7 @@
 }
 
 .Menu li {
-    color: #f8f8f8;
+    color: var(--white);
     display: flex;
     align-items: center;
 }
@@ -54,7 +54,7 @@
 
 .Menu li a:hover {
     cursor: pointer;
-    background: #40010c;
+    background: var(--red1);
     border-radius: 8px;
 }
 
@@ -65,10 +65,10 @@
     align-items: center;
     padding: 8px 16px;
     gap: 8px;
-    border: 2px solid #8c041c;
+    border: 2px solid var(--red2);
     border-radius: 8px;
     background: transparent;
-    color: #f8f8f8;
+    color: var(--white);
     transition: Background 0.2s;
     font-size: 12px;
     font-weight: 500;
@@ -80,9 +80,9 @@
 }
 
 button:hover {
-    background: #8c041c;
-    border: 2px solid #8c041c;
-    color: #e3d8d8;
+    background: var(--red2);
+    border: 2px solid var(--red2);
+    color: var(--gray2);
     cursor: pointer;
     animation: slidein 0.2s forwards;
 }

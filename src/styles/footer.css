@@ -7,14 +7,14 @@
     align-items: center;
     padding: 120px 0 0 0;
     gap: 32px;
-    background: #8c041c;
+    background: var(--red2);
 }
 
 .Footer p {
     font-weight: 600;
     font-size: 32px;
     line-height: 140%;
-    color: #e3d8d8;
+    color: var(--gray2);
 }
 
 .WhiteButton {
@@ -24,10 +24,10 @@
     align-items: center;
     padding: 12px 24px 12px 24px;
     gap: 12px;
-    border: 2px solid #8c041c;
+    border: 2px solid var(--red2);
     border-radius: 8px;
-    background: #f8f8f8;
-    color: #8c041c;
+    background: var(--white);
+    color: var(--red2);
     transition: Background 0.3s;
     font-weight: 600;
     font-size: 12px;
@@ -35,7 +35,7 @@
 }
 
 .WhiteButton:hover {
-    background: #40010c;
+    background: var(--red1);
 }
 
 .Footer div {
@@ -51,8 +51,8 @@
 
 .Footer div img:hover {
     display: flex;
-    background: #40010c;
-    border: 8px solid #40010c;
+    background: var(--red1);
+    border: 8px solid var(--red1);
     cursor: pointer;
 }
 
@@ -61,10 +61,10 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #f8f8f8;
+    background-color: var(--white);
     padding: 32px;
     font-weight: 500;
     font-size: 12px;
     letter-spacing: 0.1em;
-    color: #40010c;
+    color: var(--red1);
 }
