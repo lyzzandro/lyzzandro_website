@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #111111;
+    background: var(--dark2);
     padding: 120px 0;
     gap: 48px;
     position: relative;
@@ -19,14 +19,14 @@
     line-height: 120%;
     letter-spacing: 0.1em;
     text-transform: lowercase;
-    color: #8c041c;
+    color: var(--red2);
 }
 
 .Title h2 {
     font-weight: 600;
     font-size: 32px;
     line-height: 140%;
-    color: #efe5e5;
+    color: var(--gray3);
 }
 
 .Cards {
@@ -40,7 +40,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #1e1d1d;
+    background: var(--dark3);
     padding: 60px 40px;
     gap: 36px;
     text-align: center;
@@ -50,8 +50,8 @@
 }
 
 .Card:hover {
-    background: #8c041c;
-    box-shadow: 4px 4px 24px rgba(140, 4, 28, 0.25);
+    background: var(--red2);
+    box-shadow: var(--shadow-red);
     animation: cardup 0.3s forwards;
 }
 
@@ -75,7 +75,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 160%;
-    color: #f8f8f8;
+    color: var(--white);
     width: 160px;
 }
 
@@ -83,7 +83,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    color: #f8f8f8;
+    color: var(--white);
     width: 230px;
 }
 
@@ -126,5 +126,3 @@
         transform: translateY(0px);
     }
 }
-
-
