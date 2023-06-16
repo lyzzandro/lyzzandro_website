@@ -46,11 +46,13 @@
     text-align: center;
     border-radius: 8px;
     transition: All 0.3s;
+    animation: carddown 0.3s forwards;
 }
 
 .Card:hover {
     background: #8c041c;
     box-shadow: 4px 4px 24px rgba(140, 4, 28, 0.25);
+    animation: cardup 0.3s forwards;
 }
 
 .Card div {
@@ -104,3 +106,25 @@
         transform: translateY(-4px);
     }
 }
+
+@keyframes cardup {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-12px);
+    }
+}
+
+@keyframes carddown {
+    from {
+        transform: translateY(-12px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+
