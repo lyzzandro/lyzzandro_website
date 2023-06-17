@@ -32,7 +32,9 @@
 .Cards {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 48px;
+    justify-content: center;
 }
 
 .Card {
@@ -177,5 +179,11 @@
     }
     to {
         transform: translateX(-100%);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Habilities {
+        padding: 120px 24px 238px;
     }
 }
