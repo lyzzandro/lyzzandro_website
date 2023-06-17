@@ -157,13 +157,13 @@
     }
 
     to {
-        transform: translateY(-12px);
+        transform: translateY(-16px);
     }
 }
 
 @keyframes carddown {
     from {
-        transform: translateY(-12px);
+        transform: translateY(-16px);
     }
 
     to {
