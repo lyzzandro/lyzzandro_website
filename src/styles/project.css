@@ -48,3 +48,9 @@
     color: var(--white);
     margin-top: 2px;
 }
+
+@media screen and (max-width: 1000px) {
+    .Projects {
+        padding: 120px 24px;
+    }
+}
