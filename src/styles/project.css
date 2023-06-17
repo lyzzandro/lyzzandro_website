@@ -1,0 +1,50 @@
+.Projects {
+    padding: 120px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.Projects section {
+    display: flex;
+    width: 100%;
+    gap: 64px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1250px;
+}
+
+.Project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Project img {
+    animation: carddown 0.7s forwards;
+}
+
+.Project:hover img {
+    animation: cardup 0.7s forwards;
+    box-shadow: var(--shadow);
+}
+
+.Type-project {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.1em;
+    text-transform: lowercase;
+    color: var(--gray1);
+    margin-top: 12px;
+}
+
+.Title-project {
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--white);
+    margin-top: 2px;
+}

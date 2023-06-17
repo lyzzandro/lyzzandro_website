@@ -1,8 +1,9 @@
 import './App.css';
 import Menu from './components/Menu';
 import Apresentation from './components/Apresentation';
-import Footer from './components/Footer';
 import Habilites from './components/Habilities';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <Menu />
             <Apresentation />
             <Habilites />
+            <Projects />
             <Footer />
         </div>
     );
