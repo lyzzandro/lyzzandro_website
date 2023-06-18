@@ -4,6 +4,7 @@ import Apresentation from './components/Apresentation';
 import Habilites from './components/Habilities';
 import Projects from './components/Projects';
 import Galery from './components/Galery';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <Habilites />
             <Projects />
             <Galery />
+            <Contact />
             <Footer />
         </div>
     );
