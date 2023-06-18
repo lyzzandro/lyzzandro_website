@@ -8,6 +8,12 @@
     margin: 120px 80px;
 }
 
+.Container-contact {
+    border-top-width: 12px;
+    border-top-style: solid;
+    border-image: var(--red-gradient) 1;
+}
+
 form {
     width: 100%;
     display: flex;
