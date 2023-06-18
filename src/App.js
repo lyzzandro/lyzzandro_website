@@ -3,6 +3,7 @@ import Menu from './components/Menu';
 import Apresentation from './components/Apresentation';
 import Habilites from './components/Habilities';
 import Projects from './components/Projects';
+import Galery from './components/Galery';
 import Footer from './components/Footer';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
             <Apresentation />
             <Habilites />
             <Projects />
+            <Galery />
             <Footer />
         </div>
     );
