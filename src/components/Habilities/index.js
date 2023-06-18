@@ -3,7 +3,6 @@ import mobile from '../../images/smartphone.svg';
 import desktop from '../../images/monitor.svg';
 import code from '../../images/code.svg';
 import arrow from '../../images/arrow-down.svg';
-import { motion } from 'framer-motion';
 import tool1 from '../../images/tool1.svg';
 import tool2 from '../../images/tool2.svg';
 import tool3 from '../../images/tool3.svg';
