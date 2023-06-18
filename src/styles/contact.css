@@ -1,0 +1,81 @@
+.Contact {
+    width: 100%;
+    max-width: 1250px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 120px 80px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+}
+
+form input,
+textarea {
+    width: 100%;
+    line-height: 160%;
+    padding: 16px;
+    background: var(--dark3);
+    border: 2px solid var(--dark2);
+    border-radius: 8px;
+}
+
+textarea {
+    height: 200px;
+}
+
+form input,
+textarea {
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    color: var(--white);
+    outline: none;
+}
+
+form input::placeholder,
+textarea::placeholder {
+    color: var(--gray3);
+}
+
+form input:focus,
+textarea:focus {
+    border: 2px solid var(--gray1);
+}
+
+form label {
+    left: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--gray1);
+    display: flex;
+    align-items: center;
+    padding: 4px 6px;
+    gap: 12px;
+}
+
+form button {
+    background: transparent;
+    padding: 16px 48px;
+    gap: 16px;
+    border: 2px solid var(--red2);
+    border-radius: 8px;
+    color: var(--gray2);
+    transition: all 0.3s;
+    margin-top: 12px;
+}

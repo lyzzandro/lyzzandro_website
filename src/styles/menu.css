@@ -10,7 +10,7 @@
 }
 
 .Menu div {
-    min-width: 1200px;
+    min-width: 1250px;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -19,7 +19,7 @@
 .Container {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .Logo {
