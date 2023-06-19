@@ -33,9 +33,9 @@
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
-    gap: 36px;
+    gap: 8px;
     position: absolute;
-    right: calc(50% - 513px / 2);
+    right: calc(50% - 563px / 2);
     top: calc(50% - 41px / 2);
 }
 

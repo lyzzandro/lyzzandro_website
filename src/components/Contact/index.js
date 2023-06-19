@@ -4,7 +4,7 @@ import email from '../../images/email-red.svg';
 import message from '../../images/message-red.svg';
 export default function Contact() {
     return (
-        <div className="Container Container-contact">
+        <div className="Container Container-contact" id="contact">
             <div className="Contact">
                 <div className="Title">
                     <p>Entre em contato comigo</p>

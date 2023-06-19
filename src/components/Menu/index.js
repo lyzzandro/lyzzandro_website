@@ -9,22 +9,30 @@ export default function Menu() {
                     <img src={logo} alt="Logo" className="Logo" />
                     <ul>
                         <li>
-                            <a>Sobre mim</a>
+                            <a href="#">Sobre mim</a>
                         </li>
                         <li>
-                            <a>Galeria</a>
+                            <a href="#project">Projetos</a>
                         </li>
                         <li>
-                            <a>Projetos</a>
+                            <a href="#habilities">Habilidades</a>
                         </li>
                         <li>
-                            <a>Habilidades</a>
+                            <a href="#contact">Contato</a>
+                        </li>
+                        <li>
+                            <a href="#galery">Galeria</a>
                         </li>
                     </ul>
-                    <button className="RedButton">
-                        Solicitar proposta
-                        <img src={arrow} alt="Arrow" />
-                    </button>
+                    <a
+                        href="https://wa.me/5583991017224?text=Oi%2C+Lyzzandro%21+Quero+solicitar+um+projeto+com+voc%C3%AA."
+                        target="_blank"
+                    >
+                        <button className="RedButton">
+                            Solicitar proposta
+                            <img src={arrow} alt="Arrow" />
+                        </button>
+                    </a>
                 </div>
             </header>
         </div>
