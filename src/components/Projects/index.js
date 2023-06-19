@@ -12,7 +12,7 @@ import project9 from '../../images/project9.png';
 export default function Habilites() {
     return (
         <div className="Container">
-            <div className="Projects">
+            <div className="Projects" id="project">
                 <div className="Title">
                     <p>veja meus principais projetos</p>
                     <h2>Projetos em Destaque</h2>

@@ -15,7 +15,7 @@ import tool8 from '../../images/tool8.svg';
 export default function Habilites() {
     return (
         <div className="Container">
-            <div className="Habilities">
+            <div className="Habilities" id="habilities">
                 <img src={arrow} className="Arrow-down" />
                 <div className="Title">
                     <p>ferramentas e skills</p>

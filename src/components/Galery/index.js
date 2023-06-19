@@ -19,7 +19,7 @@ function Habilites() {
 
     return (
         <div className="Container">
-            <div className="Galery">
+            <div className="Galery" id="galery">
                 <motion.div
                     ref={carousel}
                     className="Carousel"
