@@ -10,7 +10,10 @@ export default function Contact() {
                     <p>Entre em contato comigo</p>
                     <h2>Enviar mensagem</h2>
                 </div>
-                <form>
+                <form
+                    action="https://formsubmit.co/lyzzandro91@gmail.com"
+                    method="POST"
+                >
                     <div>
                         <label for="name">
                             <img src={user} />
@@ -19,6 +22,7 @@ export default function Contact() {
                         <input
                             id="name"
                             type="text"
+                            name="name"
                             placeholder="Digite seu nome completo..."
                         ></input>
                     </div>
@@ -31,6 +35,7 @@ export default function Contact() {
                         <input
                             id="email"
                             type="email"
+                            name="email"
                             placeholder="Digite seu e-mail..."
                         ></input>
                     </div>
@@ -42,6 +47,7 @@ export default function Contact() {
                         </label>
                         <textarea
                             id="message"
+                            name="message"
                             placeholder="Digite sua mensagem..."
                         ></textarea>
                     </div>
