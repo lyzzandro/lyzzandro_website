@@ -85,3 +85,12 @@ form button {
     transition: all 0.3s;
     margin-top: 12px;
 }
+
+@media screen and (max-width: 768px) {
+    .Container-contact {
+        padding: 80px 24px;
+    }
+    .Contact {
+        margin: 0;
+    }
+}

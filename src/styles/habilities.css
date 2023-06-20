@@ -182,8 +182,8 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
     .Habilities {
-        padding: 120px 24px 238px;
+        padding: 80px 24px 198px;
     }
 }

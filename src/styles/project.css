@@ -49,8 +49,8 @@
     margin-top: 2px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
     .Projects {
-        padding: 120px 24px;
+        padding: 80px 24px;
     }
 }
