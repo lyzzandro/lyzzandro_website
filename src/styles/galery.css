@@ -1,10 +1,10 @@
 .Galery {
     width: 100%;
-    max-width: 1410px;
+    /* max-width: 1410px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 120px 80px;
+    padding: 120px 0px;
 }
 
 .Inner {
@@ -35,6 +35,6 @@
 
 @media screen and (max-width: 768px) {
     .Galery {
-        padding: 80px 24px;
+        padding: 0px 24px 80px;
     }
 }

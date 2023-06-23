@@ -53,4 +53,11 @@
     .Projects {
         padding: 80px 24px;
     }
+    .Projects section {
+        display: block;
+    }
+
+    .Project {
+        margin-bottom: 32px;
+    }
 }

@@ -8,7 +8,25 @@ import photo4 from '../../images/photo4.jpg';
 import photo5 from '../../images/photo5.jpg';
 import photo6 from '../../images/photo6.jpg';
 import photo7 from '../../images/photo7.jpg';
-const photos = [photo1, photo2, photo3, photo4, photo5, photo6, photo7];
+import photo8 from '../../images/photo8.jpg';
+import photo9 from '../../images/photo9.jpg';
+import photo10 from '../../images/photo10.jpg';
+import photo11 from '../../images/photo11.jpg';
+import photo12 from '../../images/photo12.jpg';
+const photos = [
+    photo1,
+    photo2,
+    photo3,
+    photo4,
+    photo5,
+    photo6,
+    photo7,
+    photo8,
+    photo9,
+    photo10,
+    photo11,
+    photo12,
+];
 
 function Habilites() {
     const carousel = useRef();
