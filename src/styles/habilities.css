@@ -135,8 +135,8 @@
 }
 
 .Logos-slide img {
-    height: 36px;
-    margin: 0 36px;
+    height: 50px;
+    margin: 0 80px;
 }
 
 @keyframes arrowupdown {
@@ -193,5 +193,10 @@
 
     .Card {
         width: 100%;
+    }
+
+    .Logos-slide img {
+        height: 36px;
+        margin: 0 36px;
     }
 }
