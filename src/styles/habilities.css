@@ -1,11 +1,16 @@
+.Container-habilities {
+    background: var(--dark2);
+    padding: 0 80px;
+}
+
 .Habilities {
     width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--dark2);
-    padding: 120px 0 238px;
+    padding: 120px 0;
     gap: 48px;
     position: relative;
 }
@@ -34,7 +39,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 48px;
-    justify-content: center;
+    width: 100%;
 }
 
 .Card {
@@ -49,6 +54,8 @@
     border-radius: 8px;
     transition: All 0.3s;
     animation: carddown 0.3s forwards;
+    flex-grow: 1;
+    min-width: 250px;
 }
 
 .Card:hover {
@@ -84,7 +91,7 @@
 .Card p {
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 140%;
     color: var(--white);
     width: 230px;
 }
@@ -93,50 +100,6 @@
     position: absolute;
     top: calc(0% - 36px / 2);
     animation: arrowupdown 4s infinite ease-in-out;
-}
-
-.Logos {
-    overflow: hidden;
-    padding: 24px 0;
-    background: var(--white);
-    white-space: nowrap;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
-
-.Logos:before,
-.Logos:after {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    height: 100%;
-    content: '';
-    z-index: 2;
-}
-
-.Logos:before {
-    left: 0;
-    background: linear-gradient(to left, rgba(248, 248, 248, 0), var(--white));
-}
-
-.Logos:after {
-    right: 0;
-    background: linear-gradient(to right, rgba(248, 248, 248, 0), var(--white));
-}
-
-.Logos:hover .logos-slide {
-    animation-play-state: paused;
-}
-
-.Logos-slide {
-    display: inline-block;
-    animation: 20s slide infinite linear;
-}
-
-.Logos-slide img {
-    height: 50px;
-    margin: 0 80px;
 }
 
 @keyframes arrowupdown {
@@ -183,8 +146,11 @@
 }
 
 @media screen and (max-width: 768px) {
+    .Container-habilities {
+        padding: 0 0;
+    }
     .Habilities {
-        padding: 80px 24px 190px;
+        padding: 80px 24px;
     }
 
     .Cards {

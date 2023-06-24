@@ -10,7 +10,7 @@
 }
 
 .Menu div {
-    min-width: 1250px;
+    min-width: 1200px;
     display: flex;
     justify-content: space-between;
     position: relative;

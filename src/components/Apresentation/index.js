@@ -12,8 +12,8 @@ export default function Apresentation() {
                 </div>
                 <img src={line} alt="Linha para separar" />
                 <h1>
-                    Crio interfaces para produtos digitais que conectam pessoas
-                    e empresas
+                    Construo experiências digitais que unem pessoas e negócios
+                    através de interfaces impactantes
                 </h1>
             </div>
         </div>

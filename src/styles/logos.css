@@ -1,0 +1,57 @@
+.Container-Logo {
+    position: relative;
+    height: 102px;
+}
+
+.Logos {
+    overflow: hidden;
+    padding: 24px 0;
+    background: var(--white);
+    white-space: nowrap;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.Logos:before,
+.Logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: '';
+    z-index: 2;
+}
+
+.Logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(248, 248, 248, 0), var(--white));
+}
+
+.Logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(248, 248, 248, 0), var(--white));
+}
+
+.Logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.Logos-slide {
+    display: inline-block;
+    animation: 20s slide infinite linear;
+}
+
+.Logos-slide img {
+    height: 50px;
+    margin: 0 80px;
+}
+@media screen and (max-width: 768px) {
+    .Container-Logo {
+        height: 88px;
+    }
+    .Logos-slide img {
+        height: 36px;
+        margin: 0 36px;
+    }
+}
