@@ -48,13 +48,13 @@
     justify-content: center;
     align-items: center;
     background: var(--dark3);
-    padding: 60px 40px;
+    padding: 60px 60px;
     gap: 36px;
     text-align: center;
     border-radius: 8px;
     transition: All 0.3s;
     animation: carddown 0.3s forwards;
-    flex-grow: 1;
+    flex: 1 0 0;
     min-width: 250px;
 }
 
@@ -93,7 +93,7 @@
     font-size: 12px;
     line-height: 140%;
     color: var(--white);
-    width: 230px;
+    max-width: 100%;
 }
 
 .Arrow-down {
