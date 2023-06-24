@@ -14,13 +14,14 @@
     gap: 64px;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1250px;
+    max-width: 1200px;
 }
 
 .Project {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 1 0 0;
 }
 
 .Project img {
