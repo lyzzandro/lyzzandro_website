@@ -15,9 +15,28 @@
     position: relative;
 }
 
+.Tag {
+    font-size: 1rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid #434343;
+    background: var(--dark-3, #1e1d1d);
+    color: var(--red2);
+}
+
 .Title {
     text-align: center;
 }
+
 .Title p {
     font-weight: 600;
     font-size: 16px;

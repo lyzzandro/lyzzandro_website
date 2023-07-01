@@ -13,6 +13,7 @@ export default function Habilites() {
     return (
         <div className="Container">
             <div className="Projects" id="project">
+                <h3 className="Tag">Projetos</h3>
                 <div className="Title">
                     <p>veja meus principais projetos</p>
                     <h2>Projetos em Destaque</h2>

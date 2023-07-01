@@ -3,10 +3,10 @@ import user from '../../images/user-red.svg';
 import email from '../../images/email-red.svg';
 import message from '../../images/message-red.svg';
 export default function Contact() {
-    
     return (
         <div className="Container Container-contact" id="contact">
             <div className="Contact">
+                <h3 className="Tag">Contato</h3>
                 <div className="Title">
                     <p>Entre em contato comigo</p>
                     <h2>Enviar mensagem</h2>

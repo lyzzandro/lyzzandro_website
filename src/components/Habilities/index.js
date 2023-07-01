@@ -9,6 +9,7 @@ export default function Habilites() {
         <div className="Container Container-habilities">
             <div className="Habilities" id="habilities">
                 <img src={arrow} className="Arrow-down" />
+                <h3 className="Tag">Skills</h3>
                 <div className="Title">
                     <p>ferramentas e skills</p>
                     <h2>Minhas Habilidades</h2>

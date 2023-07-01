@@ -48,10 +48,9 @@
     font-size: 14px;
     font-weight: 500;
     padding: 31px 24px;
-    transition: all 0.4s;
-    
     color: var(--dark4);
-    border-bottom: 1px var(--red2);
+    border-color: transparent;
+    transition: all 0.3s;
 }
 
 .Header li a:hover {
@@ -93,7 +92,6 @@ button:hover {
     from {
         gap: 8;
     }
-
     to {
         gap: 24px;
     }
@@ -103,7 +101,6 @@ button:hover {
     from {
         gap: 24px;
     }
-
     to {
         gap: 8px;
     }
@@ -113,6 +110,7 @@ button:hover {
     .Logo {
         position: initial;
     }
+
     .Header div {
         min-width: 100%;
         align-items: center;
@@ -122,6 +120,7 @@ button:hover {
     .Header ul {
         display: none;
     }
+
     .RedButton {
         display: none;
     }
