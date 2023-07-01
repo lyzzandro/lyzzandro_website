@@ -7,6 +7,8 @@
     align-items: center;
     padding: 200px 80px 120px;
     gap: 32px;
+    background: url(../images/bg-banner.svg) no-repeat center;
+    background-position-y: 20rem;
 }
 
 .Apresentation div {
@@ -39,22 +41,34 @@
     color: var(--white);
 }
 
-.ButtonGradient {
-    color: var(--white);
+.GradientButton {
     border: none;
+    font-family: 'Fira Sans', sans-serif;
     display: flex;
-    padding: 0.75rem 2rem;
     justify-content: center;
     align-items: center;
-    gap: 0.75rem;
+    padding: 0.75rem 2rem;
+    gap: 8px;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--white);
+    transition: Background 0.2s;
+    font-size: 12px;
+    line-height: 200%;
+    animation: slideof 0.2s forwards;
     border-radius: 0.5rem;
-    background: var(
-        --linear-gradient,
-        linear-gradient(90deg, #b90021 0%, #ff1942 100%)
-    );
+    background: var(--red-gradient-2);
+    color: var(--white);
     font-size: 1rem;
     font-weight: 600;
-    line-height: 200%;
+}
+
+.GradientButton:hover {
+    border: none;
+    background: var(--red2);
+    color: var(--gray2);
+    cursor: pointer;
+    animation: slidein 0.2s forwards;
 }
 
 @media screen and (max-width: 1000px) {

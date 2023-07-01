@@ -10,6 +10,7 @@
     --red1: #40010c;
     --red2: #8c041c;
     --red-gradient: linear-gradient(90deg, #40010c 0%, #8c041c 100%);
+    --red-gradient-2: linear-gradient(90deg, #b90021 0%, #ff1942 100%);
     --dark1: #0a0a0a;
     --dark2: #111111;
     --dark3: #1e1d1d;
@@ -18,7 +19,7 @@
     --gray1: #d3cbcb;
     --gray2: #e3d8d8;
     --gray3: #efe5e5;
-    --white: #FFEFF2;
+    --white: #ffeff2;
     --shadow: 4px 4px 24px rgba(239, 229, 229, 0.15);
     --shadow-red: 4px 4px 24px rgba(140, 4, 28, 0.25);
 }
