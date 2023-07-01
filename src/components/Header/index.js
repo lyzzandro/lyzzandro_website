@@ -1,10 +1,10 @@
-import '../../styles/menu.css';
+import '../../styles/header.css';
 import logo from '../../logo.svg';
 import arrow from '../../images/chevron-down.svg';
 export default function Menu() {
     return (
         <div className="Container">
-            <header className="Menu">
+            <header className="Header">
                 <div>
                     <img src={logo} alt="Logo" className="Logo" />
                     <ul>

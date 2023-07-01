@@ -1,15 +1,16 @@
-.Menu {
+.Header {
     width: 100%;
     position: fixed;
     z-index: 999;
-    background-color: rgba(140, 4, 28, 0.1);
+    background-color: var(--dark1);
     height: 80px;
     display: flex;
     justify-content: center;
     backdrop-filter: blur(10px);
+    border-bottom: 1px solid #111111;
 }
 
-.Menu div {
+.Header div {
     min-width: 1200px;
     display: flex;
     justify-content: space-between;
@@ -28,34 +29,36 @@
     top: calc(50% - 32px / 2);
 }
 
-.Menu ul {
+.Header ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
-    gap: 8px;
     position: absolute;
     right: calc(50% - 563px / 2);
-    top: calc(50% - 41px / 2);
+    top: calc(50% - 80px / 2);
 }
 
-.Menu li {
-    color: var(--white);
+.Header li {
     display: flex;
     align-items: center;
 }
 
-.Menu li a {
+.Header li a {
     font-size: 14px;
     font-weight: 500;
-    padding: 12px 24px;
-    transition: All 0.2s;
+    padding: 31px 24px;
+    transition: all 0.4s;
+    
+    color: var(--dark4);
+    border-bottom: 1px var(--red2);
+    
 }
 
-.Menu li a:hover {
+.Header li a:hover {
     cursor: pointer;
-    background: var(--red1);
-    border-radius: 8px;
+    color: var(--white);
+    border-bottom: 1px solid var(--red2);
 }
 
 .RedButton {
@@ -63,7 +66,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px 16px;
+    padding: 12px 24px;
     gap: 8px;
     border: 2px solid var(--red2);
     border-radius: 8px;
@@ -75,7 +78,7 @@
     line-height: 200%;
     position: absolute;
     right: 0;
-    top: calc(50% - 44px / 2);
+    top: calc(50% - 52px / 2);
     animation: slideof 0.2s forwards;
 }
 
@@ -111,13 +114,13 @@ button:hover {
     .Logo {
         position: initial;
     }
-    .Menu div {
+    .Header div {
         min-width: 100%;
         align-items: center;
         justify-content: center;
     }
 
-    .Menu ul {
+    .Header ul {
         display: none;
     }
     .RedButton {

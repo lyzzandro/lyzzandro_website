@@ -16,7 +16,7 @@
 }
 
 .Apresentation div img {
-    width: 56px;
+    width: 80px;
     border: 2px solid var(--gray2);
     border-radius: 100%;
 }
@@ -28,15 +28,37 @@
 }
 
 .Apresentation h1 {
-    color: var(--white);
+    color: var(--dark300);
     font-weight: 700;
-    font-size: 48px;
+    font-size: 56px;
     text-align: center;
-    max-width: 800px;
+    max-width: 900px;
+}
+
+.Apresentation span {
+    color: var(--white);
+}
+
+.ButtonGradient {
+    color: var(--white);
+    border: none;
+    display: flex;
+    padding: 0.75rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    border-radius: 0.5rem;
+    background: var(
+        --linear-gradient,
+        linear-gradient(90deg, #b90021 0%, #ff1942 100%)
+    );
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 200%;
 }
 
 @media screen and (max-width: 1000px) {
-    .Apresentation{
+    .Apresentation {
         padding: 200px 24px 120px;
     }
     .Apresentation h1 {

@@ -13,10 +13,12 @@
     --dark1: #0a0a0a;
     --dark2: #111111;
     --dark3: #1e1d1d;
+    --dark300: #a4a4a4;
+    --dark4: #818181;
     --gray1: #d3cbcb;
     --gray2: #e3d8d8;
     --gray3: #efe5e5;
-    --white: #f8f8f8;
+    --white: #FFEFF2;
     --shadow: 4px 4px 24px rgba(239, 229, 229, 0.15);
     --shadow-red: 4px 4px 24px rgba(140, 4, 28, 0.25);
 }
