@@ -3,7 +3,6 @@ import instagram from '../../images/instagram.svg';
 import dribble from '../../images/dribble.svg';
 import behance from '../../images/behance.svg';
 import linkedin from '../../images/linkedin.svg';
-
 export default function Footer() {
     return (
         <div className="Container">
