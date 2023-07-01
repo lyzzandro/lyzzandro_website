@@ -3,6 +3,7 @@ import user from '../../images/user-red.svg';
 import email from '../../images/email-red.svg';
 import message from '../../images/message-red.svg';
 export default function Contact() {
+    
     return (
         <div className="Container Container-contact" id="contact">
             <div className="Contact">
