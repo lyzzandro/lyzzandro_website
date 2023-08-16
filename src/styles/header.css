@@ -10,7 +10,7 @@
     border-bottom: 1px solid #111111;
 }
 
-.Header div {
+.Header > div {
     max-width: 1200px;
     width: 90%;
     margin: auto;
@@ -31,15 +31,17 @@
     list-style: none;
 }
 
-.Header li {
+.SectionListButton {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+    /* gap: calc(120px - 1vw); */
 }
 
 .SectionButton {
-    height: 80px;
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
     width: 200px;
 }
 
