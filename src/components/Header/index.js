@@ -1,6 +1,6 @@
 import '../../styles/header.css';
-import logo from '../../logo.svg';
-import arrow from '../../images/chevron-down.svg';
+import logo from "../../logo.svg";
+import arrow from "../../images/chevron-down.svg";
 export default function Menu() {
     return (
         <div className="Container">
@@ -24,15 +24,17 @@ export default function Menu() {
                             <a href="#galery">Galeria</a>
                         </li>
                     </ul>
-                    <a
-                        href="https://wa.me/5583991017224?text=Oi%2C+Lyzzandro%21+Quero+solicitar+um+projeto+com+voc%C3%AA."
-                        target="_blank"
-                    >
-                        <button className="RedButton">
-                            Solicitar proposta
-                            <img src={arrow} alt="Arrow" />
-                        </button>
-                    </a>
+                    <section className="SectionButton"> 
+                        <a
+                            href="https://wa.me/5583991017224?text=Oi%2C+Lyzzandro%21+Quero+solicitar+um+projeto+com+voc%C3%AA."
+                            target="_blank"
+                        >
+                            <button className="RedButton">
+                                Solicitar proposta
+                                <img src={arrow} alt="Arrow" />
+                            </button>
+                        </a>
+                    </section>
                 </div>
             </header>
         </div>

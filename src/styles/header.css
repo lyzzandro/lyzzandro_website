@@ -11,10 +11,11 @@
 }
 
 .Header div {
-    min-width: 1200px;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
 
 .Container {
@@ -23,25 +24,23 @@
     justify-content: center;
 }
 
-.Logo {
-    position: absolute;
-    left: 0;
-    top: calc(50% - 32px / 2);
-}
-
 .Header ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
-    position: absolute;
-    right: calc(50% - 563px / 2);
-    top: calc(50% - 80px / 2);
 }
 
 .Header li {
     display: flex;
     align-items: center;
+}
+
+.SectionButton {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    width: 200px;
 }
 
 .Header li a {
@@ -65,22 +64,22 @@
     justify-content: center;
     align-items: center;
     padding: 12px 24px;
+    
     gap: 8px;
     border: 2px solid var(--red2);
     border-radius: 8px;
+    
     background: transparent;
     color: var(--white);
     transition: Background 0.2s;
+    
     font-size: 12px;
     font-weight: 500;
     line-height: 200%;
-    position: absolute;
-    right: 0;
-    top: calc(50% - 52px / 2);
     animation: slideof 0.2s forwards;
 }
 
-button:hover {
+.RedButton:hover {
     background: var(--red2);
     border: 2px solid var(--red2);
     color: var(--gray2);
@@ -117,11 +116,8 @@ button:hover {
         justify-content: center;
     }
 
-    .Header ul {
-        display: none;
-    }
-
-    .RedButton {
+    .Header ul,
+    .SectionButton {
         display: none;
     }
 }
