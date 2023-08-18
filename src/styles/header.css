@@ -14,8 +14,10 @@
     max-width: 1200px;
     width: 90%;
     margin: auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: 125px 1fr 1fr 0.5fr 200px;
     justify-content: space-between;
+    grid-template-areas: "logo . list . button";
 }
 
 .Container {
@@ -24,25 +26,22 @@
     justify-content: center;
 }
 
+.Logo {
+    grid-area: logo;
+}
+
 .Header ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
-}
-
-.SectionListButton {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 120px;
-    /* gap: calc(120px - 1vw); */
+    grid-area: list;
 }
 
 .SectionButton {
     display: flex;
     justify-content: flex-end;
-    width: 200px;
+    grid-area: button;
 }
 
 .Header li a {
