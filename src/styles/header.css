@@ -13,10 +13,13 @@
 .Header > div {
     max-width: 1200px;
     width: 90%;
+    height: 100%;
     margin: auto;
+
     display: grid;
-    grid-template-columns: 125px 1fr 1fr 0.5fr 200px;
+    grid-template-columns: 1fr 1fr 550px 0.5fr 200px;
     justify-content: space-between;
+    align-items: center;
     grid-template-areas: "logo . list . button";
 }
 
@@ -44,10 +47,18 @@
     grid-area: button;
 }
 
+.Header ul,
+.Header li,
 .Header li a {
+    height: 100%;
+}
+
+.Header li a {
+    display: grid;
+    place-items: center;
     font-size: 14px;
     font-weight: 500;
-    padding: 31px 24px;
+    padding: 0 24px;
     color: var(--dark4);
     border-color: transparent;
     transition: all 0.3s;
@@ -112,9 +123,8 @@
     }
 
     .Header div {
-        min-width: 100%;
-        align-items: center;
-        justify-content: center;
+        grid-template-columns: 1fr;
+        place-items: center;
     }
 
     .Header ul,
