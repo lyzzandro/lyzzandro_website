@@ -11,16 +11,15 @@
 }
 
 .Header > div {
-    max-width: 1200px;
     width: 90%;
     height: 100%;
     margin: auto;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 550px 0.5fr 200px;
+    grid-template-columns: 1fr 1fr 535px 0.65fr 200px;
+    grid-template-areas: "logo . list . button";
     justify-content: space-between;
     align-items: center;
-    grid-template-areas: "logo . list . button";
 }
 
 .Container {
@@ -33,24 +32,18 @@
     grid-area: logo;
 }
 
+.Header ul,
+.Header li,
+.Header li a {
+    height: 100%;
+}
+
 .Header ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
     grid-area: list;
-}
-
-.SectionButton {
-    display: flex;
-    justify-content: flex-end;
-    grid-area: button;
-}
-
-.Header ul,
-.Header li,
-.Header li a {
-    height: 100%;
 }
 
 .Header li a {
@@ -68,6 +61,12 @@
     cursor: pointer;
     color: var(--white);
     border-bottom: 1px solid var(--red2);
+}
+
+.SectionButton {
+    display: flex;
+    justify-content: flex-end;
+    grid-area: button;
 }
 
 .RedButton {
@@ -118,10 +117,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .Logo {
-        position: initial;
-    }
-
     .Header div {
         grid-template-columns: 1fr;
         place-items: center;

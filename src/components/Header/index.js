@@ -26,17 +26,16 @@ export default function Menu() {
                         </li>
                     </ul>
 
-                    <section className="SectionButton">
-                        <a
-                            href="https://wa.me/5583991017224?text=Oi%2C+Lyzzandro%21+Quero+solicitar+um+projeto+com+voc%C3%AA."
-                            target="_blank"
-                        >
-                            <button className="RedButton">
-                                Solicitar proposta
-                                <img src={arrow} alt="Arrow" />
-                            </button>
-                        </a>
-                    </section>
+                    <a
+                        className="SectionButton"
+                        href="https://wa.me/5583991017224?text=Oi%2C+Lyzzandro%21+Quero+solicitar+um+projeto+com+voc%C3%AA."
+                        target="_blank"
+                    >
+                        <button className="RedButton">
+                            Solicitar proposta
+                            <img src={arrow} alt="Arrow" />
+                        </button>
+                    </a>
                 </div>
             </header>
         </div>
