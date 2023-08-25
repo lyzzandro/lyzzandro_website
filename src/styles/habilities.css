@@ -16,11 +16,7 @@
 }
 
 .Tag {
-    font-size: 1rem;
-    font-family: 'Space Grotesk', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 130%;
+    font: normal 700 1rem/130% 'Space Grotesk', sans-serif;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     display: flex;
