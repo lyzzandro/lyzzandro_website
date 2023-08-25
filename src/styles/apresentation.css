@@ -52,7 +52,6 @@
     border-radius: 8px;
     background: transparent;
     color: var(--white);
-    transition: Background 0.2s;
     font-size: 12px;
     line-height: 200%;
     animation: slideof 0.2s forwards;
